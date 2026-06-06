@@ -1,6 +1,6 @@
 const App = () => {
   return (
-    <div>
+    <div className="flex items-centre justify-between">
       <div>
         <h3>Getting Started!</h3>
         <p>This is a React Enterprise Starter Template</p>
