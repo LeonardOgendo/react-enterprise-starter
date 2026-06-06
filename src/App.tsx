@@ -6,7 +6,7 @@ const App = () => {
         <p>This is a React Enterprise Starter Template</p>
       </div>
       <div>
-        <h3>Happy Building</h3>
+        <h3>Happy Coding</h3>
         <p>Remember Security is a top priority</p>
       </div>
     </div>
