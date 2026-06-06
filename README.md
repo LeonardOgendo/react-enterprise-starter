@@ -2,7 +2,7 @@
 
 Production-ready React + TypeScript SPA starter built with Vite, featuring a scalable feature-based architecture, testing setup, code quality tooling, and modern AI-assisted development conventions.
 
-## Status
+### Status
 
 `✅ Actively maintained`
 
