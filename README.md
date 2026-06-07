@@ -20,18 +20,65 @@ This starter provides a production-ready foundation with a proven project struct
 
 ---
 
-This starter provides a production-ready foundation with:
+## Features
 
 - React + TypeScript
 - Vite
+- Tailwind CSS v4
 - Feature-based architecture
 - Path aliases configuration
-- ESLint
-- Prettier
 - Testing setup
 - Environment configurations
 - AI-assisted development conventions
 - Scalable project structure
+
+---
+
+## Project Structure
+
+```text
+src/
+├── app/
+│   ├── api/
+│   ├── layouts/
+│   ├── providers/
+│   └── router/
+│
+├── assets/
+│
+├── features/
+│   └── auth/
+│       ├── api/
+│       ├── components/
+│       ├── hooks/
+│       ├── pages/
+│       ├── schemas/
+│       └── types/
+│
+├── shared/
+│   ├── components/
+│   ├── constants/
+│   ├── hooks/
+│   ├── services/
+│   └── utils/
+│
+├── styles/
+│
+├── App.tsx
+└── main.tsx
+```
+
+### Architecture Overview
+
+* **app/** → Application-level configuration, providers, layouts, routing, and API setup.
+* **assets/** → Static application assets processed by Vite.
+* **features/** → Self-contained business features organized by domain. Add more features in this folder
+* **shared/** → Reusable components, hooks, utilities, constants, and services shared across features.
+* **styles/** → Global styling and design system entry points.
+* **App.tsx** → Root application component.
+* **main.tsx** → Application bootstrap entry point.
+
+Each feature owns its components, hooks, API layer, schemas, and types, promoting scalability and separation of concerns.
 
 ---
 
